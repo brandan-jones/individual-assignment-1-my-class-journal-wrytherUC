@@ -27,7 +27,7 @@ class MyclassjournalApplicationTests {
     @Test
     void verifyJournalEntryProperties() {
         String notes =  "I am running a unit test";
-        String date = "September 2021";
+        String date = "October 2023";
 
         JournalEntry journalEntry = new JournalEntry();
         journalEntry.setNotes(notes);
